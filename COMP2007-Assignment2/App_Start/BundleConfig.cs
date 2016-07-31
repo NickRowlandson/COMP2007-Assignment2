@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace COMP2007_S2016_Lesson9C
+namespace COMP2007_Assignment2
 {
     public class BundleConfig
     {
@@ -25,6 +25,7 @@ namespace COMP2007_S2016_Lesson9C
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/font-awesome.css",
                       "~/Content/site.css"));
         }
     }
