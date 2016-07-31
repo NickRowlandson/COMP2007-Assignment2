@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace COMP2007_Assignment2
+namespace COMP2007_S2016_Lesson9C
 {
     public class BundleConfig
     {
