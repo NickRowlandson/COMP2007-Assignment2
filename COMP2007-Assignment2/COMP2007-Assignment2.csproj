@@ -186,7 +186,12 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\cheese-burger.jpg" />
+    <Content Include="Assets\images\chicken-burger.jpg" />
+    <Content Include="Assets\images\ham-cheese.jpg" />
+    <Content Include="Assets\images\mortadella.jpg" />
     <Content Include="Assets\images\sandwich.jpg" />
+    <Content Include="Assets\images\steak-cheese.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
