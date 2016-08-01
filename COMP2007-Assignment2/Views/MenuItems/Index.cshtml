@@ -5,39 +5,43 @@
     ViewBag.Title = "Menu";
 }
 
-<h2>Index</h2>
+<div class="container">
+    <h2>Menu</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table table-responsive table-striped table-hover">
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
 
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            <a href='@Url.Action("Details", "Details")'>
-                <img src="~/Assets/thumbs/@item.ItemThumbnail"/>
-            </a>
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Title)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Price)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Description)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ItemThumbnail)
-        </td>
+    <table class="table table-responsive table-striped table-hover">
 
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-        </td>
-    </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a href='@Url.Action("Details", "MenuItems", new { id = item.ID })'>
+                        <img src="~/Assets/thumbs/@item.ItemThumbnail" />
+                    </a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ItemThumbnail)
+                </td>
 
-</table>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

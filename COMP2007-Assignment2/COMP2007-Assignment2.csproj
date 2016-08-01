@@ -192,8 +192,15 @@
     <Content Include="Assets\images\mortadella.jpg" />
     <Content Include="Assets\images\sandwich.jpg" />
     <Content Include="Assets\images\sandwich2.jpg" />
-    <Content Include="Assets\images\wood-pattern-ground-parquet-floor.jpg" />
     <Content Include="Assets\images\steak-cheese.jpg" />
+    <Content Include="Assets\images\veggie.jpg" />
+    <Content Include="Assets\images\wood-pattern-ground-parquet-floor.jpg" />
+    <Content Include="Assets\thumbs\cheese-burger-thumb.jpg" />
+    <Content Include="Assets\thumbs\chicken-burger-thumb.jpg" />
+    <Content Include="Assets\thumbs\ham-cheese-thumb.jpg" />
+    <Content Include="Assets\thumbs\mortadella-thumb.jpg" />
+    <Content Include="Assets\thumbs\steak-cheese-thumb.jpg" />
+    <Content Include="Assets\thumbs\veggie-thumb.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -277,7 +284,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\thumbs\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
