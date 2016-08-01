@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+using COMP2007_Assignment2.Models;
 namespace COMP2007_Assignment2.Controllers
 {
     public class HomeController : Controller
