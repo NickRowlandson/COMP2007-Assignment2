@@ -8,6 +8,13 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using COMP2007_Assignment2.Models;
 
+/**
+ * @author: Nick Rowlandson & Tim Harasym
+ * @description: Assignment 2 - MVC Restaurant
+ * @date: August 1st 2016
+ * @version: 0.0.1 
+ */
+
 namespace COMP2007_Assignment2.Controllers
 {
     [Authorize]
