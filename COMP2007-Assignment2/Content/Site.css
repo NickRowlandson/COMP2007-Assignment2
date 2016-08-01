@@ -89,6 +89,17 @@ textarea {
     background-repeat: no-repeat;
     height: 600px;
 }
+.menu-strip{
+    background-image: url(/Assets/images/wood-pattern-ground-parquet-floor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.menu-container{
+    background-color: rgba(0,0,0,0.6);
+    padding: 25px;
+    color: #fff;
+}
 .strip1 .container h1{
     color: #fff;
 }
@@ -147,11 +158,32 @@ textarea {
 .nav li{
     width: 150px;
 }
-.footer-strip{
-    background-color: rgba(240,240,240,0.75);
-    height: 50px;
-    margin-top:-50px;
+
+span{
+    color:#fff;
 }
-.footer{
-    padding-top: 20px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding-top: 20px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+      background-color: rgba(0,0,0,0.3);
+      
+  margin-top:-60px;
+}
+.table-hover > tbody > tr:hover {
+    background-color: rgba(0,0,0,0.8);
+    transition: ease-in-out background-color 0.3s;
+}
+.table-hover > tbody > tr {
+    background-color: rgba(0,0,0,0.3);
+    transition: ease-in-out background-color 0.3s;
 }
