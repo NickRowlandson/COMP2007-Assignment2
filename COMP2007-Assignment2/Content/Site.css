@@ -23,15 +23,15 @@ textarea {
     max-width: 280px;
 }
 .contact-map{
-    width: 35%;
-    height: 400px;
+    width: 450px;
+    height: 500px;
     display: block;
     float: left;
 }
 
 .social-media{
-    width: 35%;
-    height: 400px;
+    width: 450px;
+    height: 500px;
     display:block;
     float: right;
 }
@@ -43,4 +43,14 @@ textarea {
 
 .clear{
     width: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-color:#331513;
+}
+.home{
+    display:block;
+    float: left;
 }
