@@ -1,6 +1,5 @@
 ﻿body {
     padding-top: 50px;
-    padding-bottom: 20px;
     background-color: #F3F3F3;
 }
 
@@ -88,7 +87,7 @@ textarea {
     background-image: url(/Assets/images/wood-pattern-ground-parquet-floor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 600px;
 }
 .strip1 .container h1{
     color: #fff;
@@ -147,4 +146,12 @@ textarea {
 }
 .nav li{
     width: 150px;
+}
+.footer-strip{
+    background-color: rgba(240,240,240,0.75);
+    height: 50px;
+    margin-top:-50px;
+}
+.footer{
+    padding-top: 20px;
 }
