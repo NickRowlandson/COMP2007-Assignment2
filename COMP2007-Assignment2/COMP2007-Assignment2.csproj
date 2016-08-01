@@ -186,6 +186,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\logo.png" />
     <Content Include="Assets\images\sandwich.jpg" />
     <Content Include="Assets\images\sandwich2.jpg" />
     <Content Include="Assets\images\wood-pattern-ground-parquet-floor.jpg" />

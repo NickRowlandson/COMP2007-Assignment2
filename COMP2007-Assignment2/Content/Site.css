@@ -64,7 +64,7 @@ textarea {
     width: 500px;
     display:block;
     float: right;
-    border-radius: 40px 40px 0px 40px;
+    border-radius: 70px 90px 0px 70px;
 }
 .banner-text b {
     float: right;
@@ -118,4 +118,14 @@ textarea {
 .image-holder img{
     height: 320px;
     width: 400px;
+}
+.logo-container{
+    display:block;
+    float: left;
+    margin:5px;
+}
+.logo-container img{
+    height: 70px;
+    width: auto;
+    border-radius:25px;
 }
