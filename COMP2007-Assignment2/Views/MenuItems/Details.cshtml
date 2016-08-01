@@ -7,17 +7,13 @@
     <h2>Details</h2>
 
     <div>
-        <h4>@Html.DisplayFor(model => model.Title)</h4>
+        <h3>@Html.DisplayFor(model => model.Title)</h3>
         <hr />
         <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Price)
-            </dt>
-
             <dd>
-                @Html.DisplayFor(model => model.Price)
+                <img src="~/Assets/images/@Html.DisplayFor(model => model.ItemImage)" style="width:60%;"/>
             </dd>
-
+            <hr />
             <dt>
                 @Html.DisplayNameFor(model => model.Description)
             </dt>
@@ -27,13 +23,12 @@
             </dd>
 
             <dt>
-                @Html.DisplayNameFor(model => model.ItemImage)
+                @Html.DisplayNameFor(model => model.Price)
             </dt>
 
             <dd>
-                @Html.DisplayFor(model => model.ItemImage)
+                $@Html.DisplayFor(model => model.Price)
             </dd>
-
         </dl>
     </div>
     <p>

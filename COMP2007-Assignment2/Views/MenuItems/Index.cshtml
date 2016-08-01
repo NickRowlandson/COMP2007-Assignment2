@@ -1,6 +1,18 @@
 ﻿@using COMP2007_Assignment2.Models
 @model IEnumerable<MenuItem>
 
+@helper Truncate(string input, int length)
+{
+if (input.Length <= length)
+{
+        @input
+}
+else
+{
+        @input.Substring(0, length)<text>...</text>
+}
+}
+
 @{
     ViewBag.Title = "Menu";
 }
@@ -31,9 +43,6 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ItemThumbnail)
                 </td>
 
                 <td>
