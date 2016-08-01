@@ -135,3 +135,16 @@ textarea {
     width: auto;
     border-radius:25px;
 }
+.nav li a{
+    font-size: 20px;
+    margin: 10px;
+}
+.nav-icon{
+    display:block;
+    float:left;
+    padding-top: 15px;
+    padding-right:15px;
+}
+.nav li{
+    width: 150px;
+}
