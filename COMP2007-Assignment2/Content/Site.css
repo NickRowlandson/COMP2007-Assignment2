@@ -1,6 +1,18 @@
-﻿body {
+﻿html {
+  position: relative;
+  min-height: 100%;
+      background-image: url(/Assets/images/wood-pattern-ground-parquet-floor.jpg);
+
+    background-repeat: repeat-y;
+    color: #fff;
+}
+body {
     padding-top: 50px;
-    background-color: #F3F3F3;
+    background-color: transparent;
+    color: #fff;
+}
+a{
+    color: #fff;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -34,11 +46,12 @@ textarea {
     height: 500px;
     display:block;
     float: right;
+    margin-right: 30px;
 }
 .social-media a{
     font-size: 25px;
     text-decoration: none;
-
+    
 }
 
 .spacer{
@@ -60,7 +73,7 @@ textarea {
     padding: 25px;
 }
 .banner-text{
-    background-color: rgba(255,255,255,0.70);
+    background-color: rgba(0,0,0,0.50);
     transition: ease-in-out background-color 0.5s;
     margin:100px;
     height: 140px;
@@ -70,7 +83,7 @@ textarea {
     border-radius: 70px 90px 0px 70px;
 }
 .banner-text:hover {
-    background-color: rgba(255,255,255,0.90);
+    background-color: rgba(0,0,0,0.80);
     transition: ease-in-out background-color 0.5s;
 }
 .banner-text b {
@@ -85,18 +98,7 @@ textarea {
     display:block;
     float: left;
 }
-.strip1{
-    background-image: url(/Assets/images/wood-pattern-ground-parquet-floor.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 600px;
-}
-.menu-strip{
-    background-image: url(/Assets/images/wood-pattern-ground-parquet-floor.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 800px;
-}
+
 .menu-container{
     background-color: rgba(0,0,0,0.6);
     padding: 25px;
@@ -165,11 +167,6 @@ span{
     color:#fff;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 .footer {
   position: absolute;
   bottom: 0;
@@ -188,4 +185,7 @@ html {
 .table-hover > tbody > tr {
     background-color: rgba(0,0,0,0.3);
     transition: ease-in-out background-color 0.3s;
+}
+.contact{
+    background-color: rgba(0,0,0,0.5);
 }
