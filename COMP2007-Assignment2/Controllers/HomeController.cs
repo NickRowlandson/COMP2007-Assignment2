@@ -13,16 +13,16 @@ namespace COMP2007_Assignment2.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Menu()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Check out our delicious menu!";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "";
 
             return View();
         }
