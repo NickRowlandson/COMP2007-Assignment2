@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #F3F3F3;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -48,9 +49,73 @@ textarea {
 .banner{
     width: 100%;
     height: 400px;
-    background-color:#331513;
+    background-image: url(/Assets/images/sandwich2.jpg);
+    box-shadow: inset 1px 1px 20px 7px #010101;
+}
+.banner-image{
+    height:375px;
+    width: 475px;
+    padding: 25px;
+}
+.banner-text{
+    background-color: rgba(255,255,255,0.85);
+    margin:100px;
+    height: 150px;
+    width: 500px;
+    display:block;
+    float: right;
+    border-radius: 40px 40px 0px 40px;
+}
+.banner-text b {
+    float: right;
+    margin-top:10px;
+}
+.banner-text p{
+    margin: 50px;
+    font-size: 18px;
 }
 .home{
     display:block;
     float: left;
+}
+.strip1{
+    background-image: url(/Assets/images/wood-pattern-ground-parquet-floor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.strip1 .container h1{
+    color: #fff;
+}
+.strip1 .container p{
+    color: #fff;
+}
+.superbutton{
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #fff;
+    background-color: rgba(255,255,255,0.85);
+    color:#000;
+}
+
+.superbutton:hover{
+    text-decoration: none;
+    transition:ease-in background-color 0.3s;
+    background-color: rgba(255,255,255,0.1);
+    color: #fff;
+}
+.content-holder{
+    display:block;
+    float: left;
+}
+.image-holder{
+    display: block;
+    float: right;
+    box-shadow: 5px 5px 8px 3px #000;
+    
+}
+.image-holder img{
+    height: 320px;
+    width: 400px;
 }
