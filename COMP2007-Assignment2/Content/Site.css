@@ -22,3 +22,25 @@ select,
 textarea {
     max-width: 280px;
 }
+.contact-map{
+    width: 35%;
+    height: 400px;
+    display: block;
+    float: left;
+}
+
+.social-media{
+    width: 35%;
+    height: 400px;
+    display:block;
+    float: right;
+}
+.social-media a{
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+.clear{
+    width: 100%;
+}
