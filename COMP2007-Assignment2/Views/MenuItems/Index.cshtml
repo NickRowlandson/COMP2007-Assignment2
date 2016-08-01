@@ -50,8 +50,13 @@ else
                 </td>
 
                 <td>
+                    <!--
                     @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
                     @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                    -->
+                    <a href="@Url.Action("Details", new { id = item.ID })" class="btn btn-default" title="Details">
+                        <i class="fa fa-plus"></i> Details
+                    </a>
                 </td>
             </tr>
         }
