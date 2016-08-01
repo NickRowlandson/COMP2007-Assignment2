@@ -17,13 +17,15 @@ else
     ViewBag.Title = "Menu";
 }
 
+<div class="spacer"></div>
 <div class="container">
     <h2>Menu</h2>
 
+    <!--
     <p>
         @Html.ActionLink("Create New", "Create")
     </p>
-
+    -->
 
     <table class="table table-responsive table-striped table-hover">
 
@@ -36,13 +38,15 @@ else
                     </a>
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Title)
+                    <strong>@Html.DisplayFor(modelItem => item.Title)</strong>
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
+                
                 <td>
                     @Html.DisplayFor(modelItem => item.Description)
+                </td>
+
+                <td>
+                    <strong>$@Html.DisplayFor(modelItem => item.Price)</strong>
                 </td>
 
                 <td>
