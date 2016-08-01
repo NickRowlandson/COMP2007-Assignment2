@@ -7,7 +7,7 @@
     color: #fff;
 }
 body {
-    padding-top: 50px;
+    padding-top: 80px;
     background-color: transparent;
     color: #fff;
 }
@@ -75,6 +75,7 @@ textarea {
 .banner-text{
     background-color: rgba(0,0,0,0.50);
     transition: ease-in-out background-color 0.5s;
+    margin-top: 150px;
     margin:100px;
     height: 140px;
     width: 500px;
@@ -115,14 +116,14 @@ textarea {
     padding: 15px;
     margin: 15px;
     border: 1px solid #fff;
-    background-color: rgba(255,255,255,0.85);
-    color:#000;
+    background-color: rgba(0,0,0,0.1);
+    color:#fff;
 }
 
 .superbutton:hover{
     text-decoration: none;
     transition:ease-in background-color 0.3s;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(0,0,0,0.7);
     color: #fff;
 }
 .content-holder{
@@ -188,4 +189,8 @@ span{
 }
 .contact{
     background-color: rgba(0,0,0,0.5);
+    margin-bottom: 100px;
+}
+.navbar{
+    background-color: rgba(14,11,11,0.8);
 }
